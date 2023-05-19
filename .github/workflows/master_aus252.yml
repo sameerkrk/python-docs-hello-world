@@ -7,7 +7,7 @@ name: Build and deploy Python app to Azure Web App - aus252
 on:
   push:
     branches:
-      - master
+      - slave
   workflow_dispatch:
 
 jobs:
